@@ -108,9 +108,12 @@ Assumptions :
     5. Pass a valid date in format : dd/Mmm/yyyy  , e.g. 03/Dec/2021 
     6. Ratio is presented in %
     7. Logfiles should be with .log extension
+    
         Example
         ├── sample.log
-        └── log_parser.py
+        ├── log_parser.py
+        └── test_coverae.py
+        
 
     Example : python3 log_parser.py --logFile sample.log --date 03/Dec/2011 [--action all]       
 ################################################################################################################        
