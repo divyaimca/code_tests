@@ -37,3 +37,14 @@ Once you’re done, send us a link to your GitHub repo. We’ll review based on:
 - Add command line switches (e.g., verbose mode)
 - Provide a help screen
 - Provide sufficient test coverage
+
+## Usage Help
+python3 log_parser.py --help
+
+e.g. python3 log_parser.py --logFile sample.log  --date 01/Dec/2011 --action all
+
+## Testing
+
+python3 test_coverage.py
+
+
